@@ -1,4 +1,4 @@
-# Completed Project for Building Expense Tracker Apple Watch App with SwiftUI & Core Data
+# Building Expense Tracker Apple Watch App with SwiftUI & Core Data
 
 ![Alt text](./promo.png?raw=true "Building Expense Tracker Apple Watch App with SwiftUI & Core Data")
 Follow the tutorial at [alfianlosari.com](https://alfianlosari.com/posts/building-expense-tracker-apple-watch-app-with-swiftui-core-data/ "Xcoding with Alfian Blog")
