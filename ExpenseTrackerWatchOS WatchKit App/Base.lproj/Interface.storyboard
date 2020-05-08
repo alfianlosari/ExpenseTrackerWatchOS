@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="16096" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3mp-fW-waa">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="16012"/>
+    </dependencies>
+    <scenes>
+        <!--Dashboard Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <hostingController id="3mp-fW-waa" customClass="DashboardController" customModule="ExpenseTrackerWatchOS_WatchKit_Extension">
+                    <connections>
+                        <segue destination="QVF-8d-vIn" kind="relationship" relationship="nextPage" id="McZ-nJ-Crm"/>
+                    </connections>
+                </hostingController>
+            </objects>
+            <point key="canvasLocation" x="34" y="31"/>
+        </scene>
+        <!--DashboardController-->
+        <scene sceneID="Dgl-Cb-Ovk">
+            <objects>
+                <hostingController identifier="DashboardController" id="QVF-8d-vIn" customClass="LogController" customModule="ExpenseTrackerWatchOS_WatchKit_Extension"/>
+            </objects>
+            <point key="canvasLocation" x="316" y="31"/>
+        </scene>
+    </scenes>
+</document>
